@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ginza Night</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+    <link rel="shortcut icon" href="../assets/img/icono-PhotoRoom-PhotoRoom.png" type="image/x-icon">
+    <link rel="stylesheet" href="../assets/css/style.css">
+</head>
+<body>
+    <header>
+        <nav class="navbar navbar-expand-lg color">
+            <div class="container-fluid">
+                <div class="header__nav__div__logo">
+                    <a href="./../index.html"><img src="../assets/img/icono-PhotoRoom-PhotoRoom.png" alt="logo_ginzaNight"></a>
+                </div>
+                <button class="navbar-toggler color__button__var" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav ms-auto">
+                        <li class="nav-item">
+                            <a class="nav-link ul__li__a__color nav__color__hover" aria-current="page" href="../index.html">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link ul__li__a__color nav__color__hover" href="./establecimiento.html">Establecimientos</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link ul__li__a__color nav__color__hover" href="./login.html">Login</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+
+    <main class="contacto__main">
+        <h1 class="h1__contacto fuente">Registrate rápido y de forma segura</h1>
+        <div class="row">
+            <div class="col-xs-12 col-md-4">
+                <div class="descripcion__contacto fuente">
+                    <p>Logueate ahora mismo para poder experimentar al máximo</p>
+                </div>
+            </div>
+
+            <div class="col-xs-12 col-md-8">
+                <form class="container row g-3 pos__form">
+                    <div class="col-md-5 textInputWrapper">
+                        <label for="inputNombre" class="form-label form__label fuente">Nombre</label>
+                        <input type="text" placeholder="Escriba aquí.." class="form-control textInput" id="inputNombre">
+                    </div>
+                    <div class="col-md-5 textInputWrapper">
+                        <label for="inputApellido" class="form-label form__label fuente">Apellido</label>
+                        <input type="text" placeholder="Escriba aquí.." class="form-control textInput" id="inputApellido">
+                    </div>
+                    <div class="col-md-10 textInputWrapper">
+                        <label for="inputEmail4" class="form-label form__label fuente">Email</label>
+                        <input type="email" placeholder="Escriba aquí.." class="form-control textInput" id="inputEmail4">
+                    </div>
+                    <div class="col-md-10 textInputWrapper">
+                        <label for="inputEmail4" class="form-label form__label fuente">Contraseña</label>
+                        <input type="password" placeholder="Escriba aquí.." class="form-control textInput" id="inputContraseña">
+                    </div>
+                    <div class="col-md-4 textInputWrapper">
+                        <label for="inputCodigo" class="form-label form__label fuente">Codigo Postal</label>
+                        <input type="text" placeholder="Escriba aquí.." class="form-control textInput" id="inputCodigo">
+                    </div>
+                    <label>
+                        Acepta terminos y condiciones
+                        <input type="checkbox" name="acepto" value="1" required>
+                    </label>
+                    <div class="col-12">
+                        <button type="submit" class="btn btn-danger boton__form">
+                            Login
+                        </button>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </main>
+
+    <footer>
+        <div class="grilla">
+            <div class="footer__logo">
+                <img src="../assets/img/icono-PhotoRoom-PhotoRoom.png" alt="logo_ginzanight">
+            </div>
+
+            <section class="footer__redes">
+
+                <ul class="wrapper">
+                    <li class="icon facebook">
+                        <span class="tooltip">Facebook</span>
+                        <span><i class="fab fa-facebook-f"></i></span>
+                        <div>
+                            <a href=""><img src="../assets/img/logoface-PhotoRoom-PhotoRoom.png" alt=""></a>
+                        </div>
+                    </li>
+                    <li class="icon instagram">
+                        <span class="tooltip">Instagram</span>
+                        <span><i class="fab fa-instagram"></i></span>
+                        <div>
+                            <a href=""><img src="../assets/img/logoinsta.png" alt=""></a>
+                        </div>
+                    </li>
+                </ul>
+            </section>
+
+            <!-- Linea divisora -->
+            <div class="separacion">
+                <div class="footer__separacion"></div>
+            </div>
+
+            <div class="footer__aclaracion">
+                <p class="footer__aclaracion__p fuente">de la Mano Manuel, todos los derechos reservados.</p>
+            </div>
+        </div>
+    </footer>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
+</body>
+</html>

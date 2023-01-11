@@ -1,0 +1,104 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* HOME PAGE*/ /* VISTA MOBILE = MOBILE FIRST*/
+.main__h2 {
+  text-align: left;
+  font-size: 3rem;
+  padding-top: 3rem;
+  padding-bottom: 2rem;
+  font-weight: bold;
+  margin: 1rem;
+}
+
+.main__actividades {
+  background-color: white;
+  overflow-y: auto;
+}
+
+.main__actividades__article__div {
+  height: 250px;
+  width: 250px;
+  margin: 20px;
+}
+
+.article__position {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-bottom: 1rem;
+}
+
+.main__actividades__article__div__h2 {
+  text-align: center;
+  font-size: 2rem;
+  padding-top: 3rem;
+  padding-bottom: 1rem;
+}
+
+.main__actividades__article__p {
+  font-size: 0.8rem;
+  padding-left: 1rem;
+  padding-right: 1rem;
+  color: white;
+}
+
+.main__instalaciones {
+  background-color: rgb(230, 88, 88);
+  overflow: auto;
+}
+
+.card {
+  width: 20rem;
+  height: 22rem;
+  background-color: rgb(7, 7, 7);
+  border-radius: 1rem;
+  border: #212121 0.2rem solid;
+  transition: all 0.4s ease-in;
+  position: static;
+}
+
+.card:hover {
+  transform: translateY(-1.5rem);
+  border: rgb(230, 88, 88) 0.2em solid;
+  border-radius: 2.5rem 0 2.5rem 0;
+}
+
+/* NAVBAR*/
+header {
+  position: sticky;
+  top: 0px;
+  z-index: 4;
+}
+header .header__nav__div__logo {
+  height: 50px;
+  width: 50px;
+  background-color: transparent;
+}
+header .header__nav__div__logo img {
+  height: 100%;
+  width: 100%;
+}
+header .color__button__var {
+  border: black solid 1px;
+}
+header .ul__li__a__color {
+  text-decoration: none;
+  color: white;
+  font-family: "Roboto", sans-serif;
+}
+header .ul__li__a__activo {
+  font-weight: bold;
+}
+header .nav__color__hover:hover {
+  color: black;
+}
+
+.color {
+  background-color: rgb(230, 88, 88);
+}
+
+/*# sourceMappingURL=estilos.css.map */

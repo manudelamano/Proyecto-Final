@@ -1,0 +1,35 @@
+/* NAVBAR*/
+@use 'variables';
+
+header{
+    position: sticky;
+    top: 0px;
+    z-index: 4;
+    .header__nav__div__logo{
+        height: 50px;
+        width: 50px;
+        background-color: transparent;
+        img{
+            height: 100%;
+            width: 100%;
+        }
+    }
+    .color__button__var{
+        border: black solid 1px;
+    }
+    .ul__li__a__color{
+        text-decoration: none;
+        color: white;
+        font-family: 'Roboto', sans-serif;
+    }
+    .ul__li__a__activo{
+        font-weight: bold;
+    }
+    .nav__color__hover:hover {
+        color: black;
+    }    
+}
+
+.color{
+    background-color:  rgb(230, 88, 88);
+}
