@@ -76,6 +76,42 @@ img {
   font-family: "Roboto", sans-serif;
 }
 
+.imagen_cruz {
+  height: 40px;
+  width: 55px;
+}
+
+.nomb_establecimiento {
+  font-size: 40px;
+  padding: 1rem;
+  font-weight: bold;
+}
+
+.descrip {
+  font-size: 20px;
+}
+
+.botones_estab {
+  display: flex;
+  justify-content: center;
+}
+
+.boton1y2 {
+  padding: 5px;
+}
+
+/*DESKTOP*/
+@media screen and (min-width: 1024px) {
+  .boton1y2 {
+    padding: 5px;
+    width: 300px;
+    height: 80px;
+  }
+  .btn_1y2 {
+    width: 200px;
+    height: 50px;
+  }
+}
 /* NAVBAR*/
 header {
   position: sticky;
@@ -380,6 +416,24 @@ footer {
   .contacto__main .pos__form {
     padding-left: 3rem;
   }
+}
+.imagen_cruz {
+  height: 40px;
+  width: 55px;
+}
+
+.nomb_ubicacion {
+  font-size: 40px;
+  padding: 1rem;
+  font-weight: bold;
+}
+
+.detalle {
+  font-size: 20px;
+}
+
+.espacio {
+  padding-top: 30px;
 }
 
 /*# sourceMappingURL=estilos.css.map */
