@@ -1,0 +1,25 @@
+
+.usu_completo{
+    padding: 1rem;
+    display: flex;
+    justify-content: flex-start;
+    border-bottom: 2px solid black;
+    .img_usuario{
+        height: 200px;
+        width: 200px;
+        border: 2px solid;
+        img{
+            height: 100%;
+            width: 100%;
+        }
+    }
+}
+.texto_foto{
+    padding: 3rem;
+}
+
+.display{
+    display: flex;
+    flex-direction: column;
+    align-items:center ;
+}
